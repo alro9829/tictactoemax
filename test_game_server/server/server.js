@@ -7,6 +7,8 @@ const createCooldown = require("./create-cooldown");
 
 const { Client } = require("pg");
 
+// const Client connection here
+
 const app = express();
 const clientPath = `${__dirname}/../client`;
 
